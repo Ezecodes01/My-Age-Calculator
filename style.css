@@ -98,7 +98,7 @@ main {
 
     .div-container {
         display: flex;
-        align-items: self-start;
+        align-items: center;
         gap: 10px;
 
     }
