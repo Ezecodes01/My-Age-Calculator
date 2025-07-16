@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cec8f1be89.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main>
+
+        <div class="div-container-title">
+            <h1>Age Calculator</h1>
+            <p>Calculate your age in years, months, and days.</p>
+            <p style="font-size: 15px; color: gray;">
+                <i class="fa-solid fa-circle-info"></i> Enter your birth date in the fields below.
+            </p>
+        </div>
+        <div class="div-container">
+            <div class="div-container-day">
+                <p><small>DAY</small></p>
+                <input id="day" type="text" placeholder="DD" maxlength="2" title="" style="width: 90px; ">
+            </div>
+
+            <div class="div-container-month ">
+                <p><small>MONTH</small></p>
+                <input id="month" type="text" placeholder="MM" maxlength="2" title="" style="width: 90px; ">
+            </div>
+
+            <div class="div-container-year">
+                <p><small>YEAR</small></p>
+                <input id="year" type="text" placeholder="YYYY" maxlength="4" title="" style="width: 90px; color: blueviolet; ">
+            </div>
+        </div>
+        <div class="div-container-button">
+            <hr style="width: 90%;">
+            <button id="calculate-btn" class="clickon"><i class="fa-regular fa-star"></i></button>
+        </div>
+
+        <div class="div-container-result">
+            <div class="open">
+                <input type="text" id="result-years" class="input-result1" placeholder="- -" maxlength="3" title="" style="width: 160px; ">
+                <h3>years</h3>
+            </div>
+
+            <div class="open"><input id="result-months" class="input-result2" placeholder="- -" maxlength="2" title="" style="width: 160px; ">
+                <h3>months</h3>
+            </div>
+           
+            <div class="open">
+               <input id="result-days" class="input-result3"  placeholder="- -" maxlength="2" title="" style="width: 160px; ">
+                <h3>days</h3>
+            </div>
+        </div>
+
+
+    </main>
+</body>
+<script src="script/java.js"></script>
+</html>
